@@ -81,7 +81,7 @@ h1.text-center {
 
 .carousel .item {
 	height: 500px;
-/*	background-color: #777;*/
+	/*	background-color: #777;*/
 }
 
 .carousel-inner>.item>img {
@@ -90,4 +90,72 @@ h1.text-center {
 	left: 0;
 	min-width: 100%;
 	height: 500px;
+}
+
+.netizenIntRow {
+	width: 90%;
+	margin: 2% auto 10% auto;
+}
+
+.netizenIntPan {
+	width: 90%;
+	height: 300px;
+	padding: 10px;
+}
+
+.left.carousel-control {
+	background-color: #FFFFFF;
+	background-image: none;
+	width: 5%;
+}
+
+.right.carousel-control {
+	background-color: #FFFFFF;
+	background-image: none;
+	right: 20px;
+	width: 5%;
+}
+
+#carouseldForwardBut {
+	top: 40%;
+}
+
+#carouseldBackBut {
+	top: 40%;
+}
+
+.netizenIntA {
+	display: block;
+	margin-left: 60px;
+	
+}
+
+.netizenIntDoubleQuo {
+	font-size: 48px;
+	color: #999;
+	height: 25px;
+	margin-right: 10px;
+	line-height: 1;
+	vertical-align: bottom;
+	display: inline-block;
+}
+.netizenIntCon{
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #EEEEEE;
+}
+.carousel-indicators{
+	bottom: 60px;
+}
+li[data-target="#myCarousel"]{
+	width: 14px;
+	height: 14px;
+	background-color: #999999;
+	margin: 3px;
+}
+.carousel-indicators .active{
+	width: 14px;
+	height: 14px;
+	background-color: #219FF0;
+	margin: 3px;
 }
