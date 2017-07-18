@@ -1,11 +1,21 @@
-.serAreaPan{
-	padding: 0px;
-
+.serAreaCm4 {
+	padding: 0px 10px;
 }
-h1.text-center{
+
+.serAreaPan {
+	border-radius: 0px;
+}
+
+.serAreaPanSec {
+	margin-bottom: 0px;
+	border-bottom: 0px;
+}
+
+h1.text-center {
 	font-size: 4em;
 	letter-spacing: 12px;
 }
+
 .serArea {
 	margin-left: 0px;
 }
@@ -23,7 +33,27 @@ h1.text-center{
 	padding: 0px 10px 10px 10px;
 }
 
-
 .serAreaFirDiv a {
 	color: #FFFFFF;
+}
+
+.expertList {
+	/*width: 100%;
+	height: 50%;*/
+	margin: 10px auto;
+	overflow: auto;
+}
+.expertListPho{
+	width: 160px;
+	height: 160px;
+	display: block;
+	margin: 10px auto;
+}
+.serAreaCm3{
+	padding: 20px 10px;
+}
+.expertListPos{
+	font-size: 1.2em;
+	font-weight:bold ;
+	margin: 20px auto;
 }
