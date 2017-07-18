@@ -1,3 +1,29 @@
-.serArea  {
+.serAreaPan{
+	padding: 0px;
+
+}
+h1.text-center{
+	font-size: 4em;
+	letter-spacing: 12px;
+}
+.serArea {
 	margin-left: 0px;
+}
+
+.serAreaH4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #219ff0;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+.serAreaFirDiv {
+	background-color: #219ff0;
+	padding: 0px 10px 10px 10px;
+}
+
+
+.serAreaFirDiv a {
+	color: #FFFFFF;
 }
