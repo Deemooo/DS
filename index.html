@@ -15,7 +15,7 @@
 		<link href="bootstrap-3.3.7\dist\css\bootstrap-theme.min.css" rel="stylesheet">
 
 		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-		<script src="jQuery\jquery-3.1.1.min.js"></script>
+		<script src="jQuery\jquery-3.2.1.min.js"></script>
 
 		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 		<script src="bootstrap-3.3.7\dist\js\bootstrap.min.js"></script>
@@ -221,14 +221,10 @@
         -->
 		<h2 class="text-center">用户声音</h2>
 		<section class="container">
-			<div class="row">
+			<!--<div class="row">
 				<section class="serAreaCm3 col-md-3">
 					<div class="panel panel-default">
 					</div>
-					/section>
-					<section class="serAreaCm3 col-md-3">
-						<div class="panel panel-default">
-						</div>
 					</section>
 					<section class="serAreaCm3 col-md-3">
 						<div class="panel panel-default">
@@ -238,42 +234,126 @@
 						<div class="panel panel-default">
 						</div>
 					</section>
+					<section class="serAreaCm3 col-md-3">
+						<div class="panel panel-default">
+						</div>
+					</section>
+			</div>-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<!-- 轮播导航 -->
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- 轮播项目 ,每一页四栏-->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="row">
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="item">
+						<div class="row">
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="item">
+						<div class="row">
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+							<section class="serAreaCm3 col-md-3">
+								<div class="panel panel-default">
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+				<!-- 轮播控件 -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
-			</section>
-			<!--
+		</section>
+		<!--
         	作者：yibiluo@foxmail.com
         	时间：2017-07-14
         	描述：地图索引区
         -->
-			<section>
+		<section>
 
-			</section>
-			<!--
+		</section>
+		<!--
         	作者：yibiluo@foxmail.com
         	时间：2017-07-14
         	描述：合作伙伴列表区
         -->
-			<section>
-				<section>合作伙伴log墙</section>
-				<section>图片轮播墙</section>
-			</section>
-			<!--
+		<section>
+			<section>合作伙伴log墙</section>
+			<section>图片轮播墙</section>
+		</section>
+		<!--
         	作者：yibiluo@foxmail.com
         	时间：2017-07-14
         	描述：资讯与法律知识区
         -->
+		<section>
+			<section>法律讲堂</section>
+			<section>媒体资讯</section>
+		</section>
+		<!--主内容结束-->
+		<!--底部栏开始-->
+		<footer>
 			<section>
-				<section>法律讲堂</section>
-				<section>媒体资讯</section>
+				<section>备案信息</section>
 			</section>
-			<!--主内容结束-->
-			<!--底部栏开始-->
-			<footer>
-				<section>
-					<section>备案信息</section>
-				</section>
-			</footer>
-			<!--底部栏结束-->
+		</footer>
+		<!--底部栏结束-->
 	</body>
 
 </html>
