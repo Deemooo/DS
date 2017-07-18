@@ -43,13 +43,18 @@ h1.text-center {
 	margin: 10px auto;
 	overflow: auto;
 }
+<<<<<<< HEAD
 
 .expertListPho {
+=======
+.expertListPho{
+>>>>>>> bbc8804c65e9dbae427ac010363b8e40c9170b23
 	width: 160px;
 	height: 160px;
 	display: block;
 	margin: 10px auto;
 }
+<<<<<<< HEAD
 
 .serAreaCm3 {
 	padding: 20px 10px;
@@ -91,3 +96,13 @@ h1.text-center {
 	min-width: 100%;
 	height: 500px;
 }
+=======
+.serAreaCm3{
+	padding: 20px 10px;
+}
+.expertListPos{
+	font-size: 1.2em;
+	font-weight:bold ;
+	margin: 20px auto;
+}
+>>>>>>> bbc8804c65e9dbae427ac010363b8e40c9170b23
