@@ -107,9 +107,11 @@ h1.text-center {
 	width: 50px;
 	height: 50px;
 }
-.netizenIntUerNam{
+
+.netizenIntUerNam {
 	font-weight: bold;
 }
+
 .netizenIntUerTit {
 	display: inline-block;
 }
@@ -187,21 +189,64 @@ li[data-target="#myCarousel"] {
 	background-color: #219FF0;
 	margin: 3px;
 }
-.dataShowRow1{
+
+.dataShowRow1 {
 	font-size: 1.5em;
 }
-.dataShowNum{
+
+.dataShowNum {
 	font-size: 4em;
 }
-.item > div{
+
+.item>div {
 	display: inline-block;
 }
-.lawLectureRoo{
+
+.lawLectureRoo {
 	width: 60%;
+	height: 300px;
+	/*display: inline-block;*/
 }
-.mediaCov{
-	width: 35%;
+
+.mediaCov {
+	width: 30%;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+	top: -30px;
+	left: -150px;
 }
-.item  h3,.item  p{
+
+.item h4 {
+	display: inline-block;
 	width: 200px;
+	margin: 5px;
+}
+
+.item p {
+	/*display: inline-block;*/
+	width: 200px;
+	margin: 5px;
+}
+
+.lawLectureRooPic {
+	position: relative;
+	top: -30px;
+	left: 0px;
+}
+
+.mediaCovTit {
+	position: relative;
+	top: -30px;
+}
+
+.mediaCovList li {
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+.mediaCovList li a {
+	color: #000000;
 }
