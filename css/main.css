@@ -103,6 +103,31 @@ h1.text-center {
 	padding: 10px;
 }
 
+.netizenIntUerPho {
+	width: 50px;
+	height: 50px;
+}
+.netizenIntUerNam{
+	font-weight: bold;
+}
+.netizenIntUerTit {
+	display: inline-block;
+}
+
+.netizenIntUerDivPho {
+	display: inline-block;
+	margin: 10px;
+}
+
+.netizenIntUerInf {
+	display: inline-block;
+	width: 60%;
+	height: 50px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
 .left.carousel-control {
 	background-color: #FFFFFF;
 	background-image: none;
@@ -127,7 +152,6 @@ h1.text-center {
 .netizenIntA {
 	display: block;
 	margin-left: 60px;
-	
 }
 
 .netizenIntDoubleQuo {
@@ -139,23 +163,45 @@ h1.text-center {
 	vertical-align: bottom;
 	display: inline-block;
 }
-.netizenIntCon{
+
+.netizenIntCon {
 	padding-top: 10px;
 	margin-top: 10px;
 	border-top: 1px solid #EEEEEE;
 }
-.carousel-indicators{
+
+.carousel-indicators {
 	bottom: 60px;
 }
-li[data-target="#myCarousel"]{
+
+li[data-target="#myCarousel"] {
 	width: 14px;
 	height: 14px;
 	background-color: #999999;
 	margin: 3px;
 }
-.carousel-indicators .active{
+
+.carousel-indicators .active {
 	width: 14px;
 	height: 14px;
 	background-color: #219FF0;
 	margin: 3px;
+}
+.dataShowRow1{
+	font-size: 1.5em;
+}
+.dataShowNum{
+	font-size: 4em;
+}
+.item > div{
+	display: inline-block;
+}
+.lawLectureRoo{
+	width: 60%;
+}
+.mediaCov{
+	width: 35%;
+}
+.item  h3,.item  p{
+	width: 200px;
 }
