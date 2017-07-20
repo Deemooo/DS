@@ -5,7 +5,10 @@
 .serAreaPan {
 	border-radius: 0px;
 }
-
+.serAreaPan > h5{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
 .serAreaPanSec {
 	margin-bottom: 0px;
 	border-bottom: 0px;
@@ -14,6 +17,7 @@
 h1.text-center {
 	font-size: 4em;
 	letter-spacing: 12px;
+	margin: 60px;
 }
 
 .serArea {
@@ -37,6 +41,10 @@ h1.text-center {
 	color: #FFFFFF;
 }
 
+.expertListH2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 .expertList {
 	/*width: 100%;
 	height: 50%;*/
@@ -63,7 +71,9 @@ h1.text-center {
 
 
 /* Carousel base class */
-
+.netizenIntCon{
+	height: 420px;
+}
 .carousel {
 	height: 500px;
 	margin-bottom: 60px;
@@ -173,7 +183,7 @@ h1.text-center {
 }
 
 .carousel-indicators {
-	bottom: 60px;
+	bottom: 80px;
 }
 
 li[data-target="#myCarousel"] {
@@ -189,7 +199,10 @@ li[data-target="#myCarousel"] {
 	background-color: #219FF0;
 	margin: 3px;
 }
-
+.dataShowH2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 .dataShowRow1 {
 	font-size: 1.5em;
 }
@@ -198,24 +211,20 @@ li[data-target="#myCarousel"] {
 	font-size: 4em;
 }
 
-.item>div {
+/*.item>div {
 	display: inline-block;
+}*/
+article.container{
+	margin-top: 30px;
+	height: 200px;
 }
-
 .lawLectureRoo {
 	width: 60%;
 	height: 300px;
 	/*display: inline-block;*/
 }
 
-.mediaCov {
-	width: 30%;
-	height: 300px;
-	display: inline-block;
-	position: relative;
-	top: -30px;
-	left: -150px;
-}
+
 
 .item h4 {
 	display: inline-block;
@@ -228,7 +237,9 @@ li[data-target="#myCarousel"] {
 	width: 200px;
 	margin: 5px;
 }
-
+.lawLectureRooCar > div{
+	display: inline-block;
+}
 .lawLectureRooPic {
 	position: relative;
 	top: -30px;
@@ -238,8 +249,16 @@ li[data-target="#myCarousel"] {
 .mediaCovTit {
 	position: relative;
 	top: -30px;
+	left:50px
 }
-
+.mediaCov {
+	width: 30%;
+	height: 300px;
+	display: inline-block;
+	position: relative;
+	top: -30px;
+	left: -105px;
+}
 .mediaCovList li {
 	width: 100%;
 	text-overflow: ellipsis;
@@ -250,3 +269,11 @@ li[data-target="#myCarousel"] {
 .mediaCovList li a {
 	color: #000000;
 }
+
+footer.container-fluid>p{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	color: #E0E0E0;
+}
+
